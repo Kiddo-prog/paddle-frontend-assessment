@@ -2,10 +2,12 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 
 export default function ListGithubRepos() {
-    const list = useSelector(state => state.github.starred_list.items)
+    const list = useSelector(state => state.github.starred_list)
   return (
     <div>
-        {list?.map(item => (
+        {list.length === 0 ? <p>Loading... </p> 
+        : 
+        list?.items.map(item => (
             <div key={item.id}>
                 <div>{item.owner.id}</div>
                 <p>{item.owner.login}</p>
