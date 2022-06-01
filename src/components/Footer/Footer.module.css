@@ -1,0 +1,29 @@
+.FOOTER_CONTAINER {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4em;
+}
+.FOOTER_ICONS{
+    display: inline-flex;
+    column-gap: 1.5em;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+.FOOTER_TERMS_OF_USE{
+    display: inline-flex;
+    column-gap: 1em;
+}
+.FOOTER_TERMS_OF_USE .FOOTER_TERMS_LINK{
+    color: var(--color);
+    text-decoration: none;
+    font-size: 0.9em;
+    color: var(--secondary-color);
+}
+.FOOTER_COPYRIGHT {
+    margin: 2em 0;
+    color: var(--secondary-color);
+    font-family: var(--secondary-color);
+    font-size: 0.9em;
+}
