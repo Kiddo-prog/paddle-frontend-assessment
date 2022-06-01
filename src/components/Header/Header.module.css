@@ -1,0 +1,18 @@
+.NavContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 4em;
+}
+.NavItems {
+    display: inline-flex;
+    column-gap: 3em;
+}
+.Link{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+
+}
