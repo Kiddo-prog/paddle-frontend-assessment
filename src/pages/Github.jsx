@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { getStarredRepos } from '../features/githubSlice/githubSlice';
-import ListGithubRepos from '../components/Github/List';
+
+import GithubPage from '../components/GithubPage/GithubPage';
 
 const Github = () => {
-    const [items, setItems] = useState([])
     const dispatch = useDispatch()
 
     const fetchData = async() => {
@@ -20,7 +20,7 @@ const Github = () => {
     })
     return (
         <div>
-            <ListGithubRepos />
+            <GithubPage />
         </div>
     )
 }
