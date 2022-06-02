@@ -1,18 +1,16 @@
 {
-    "Why": [
+    "Why": 
          {
-              "id": 1,
               "description": "We pride ourselves in our ability to innovate and create world-class tools that provide reliable and efficient touchpoints between advertisers and affiliates"
          },
-         {
-              "id": 2,
+         
+        "Why2": {
               "description": "Leveraging the best technology, we have developed an all-in-one affiliate marketing tracking software, a genius tool to help you track, automate and optimize your influencer campaigns all from one dashboard."
          },
-         {
-              "id": 3,
+        "Why3" : {
               "description": "Our team of experts are constantly brainstorming, testing and developing new solutions with only one thing in mind - your business growth. Your succes is our success and by giving you the tools you need to scale, we grow as well."
-         }   
-    ],
+         },
+
     "About": "Our tools are easy to set up with a user friendly dashboard that enables you to set up, launch, automate and manage multi-affiliate campaigns in 5 minutes",
 
     "Terms": [
@@ -21,6 +19,15 @@
         },
         {
             "terms": "This Agreement is effective as of the date Customer clicks “Accepted and Agreed To” or a similar button in the process of opening an online account with Metricks Inc (the “Effective Date”). Customer’s use of and Metricks provision of the Cloud Services and Metricks System (each as defined below) are governed by this Agreement."
+        }
+    ],
+
+    "Definition": [
+        {
+            "description": "Metricks is a company that enables advertisers (“Advertisers”) to market their products online with the help of publishers (“Affiliates”). Metricks contracts only with Advertisers and has no responsibility in the relationship between Advertisers and Affiliates. Metricks offers tools to improve, register and facilitate online marketing through Affiliates (the “Service”). The payment of Affiliates shall always be the sole responsibility of the Advertisers and Metricks shall therefore never be held liable for any damages resulting from any failure of the Advertiser to pay an Affiliate in a complete and timely manner"
+        },
+        {
+            "description": "By accepting these Terms, any Advertiser using our Service warrants that he will pay the relevant Affiliate in a complete and timely manner."
         }
     ],
 

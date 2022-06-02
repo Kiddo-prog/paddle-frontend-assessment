@@ -1,7 +1,13 @@
 import React from 'react'
 
-export default function ComingSoon() {
+import HomePage from '../components/Home/HomePage'
+
+const ComingSoon = () => {
   return (
-    <div>ComingSoon</div>
+    <>
+        <HomePage />
+    </>
   )
 }
+
+export default ComingSoon

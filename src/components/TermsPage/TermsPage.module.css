@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+.TERMS_CONTAINER {
+    color: var(--color);
+    font-family: 'Poppins', sans-serif;
+    margin: 2em 4em;
+}
+.TERMS_CONTAINER h2 {
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.TERMS_CONTAINER div {
+    margin-bottom: 20px;
+}
+.TERMS_CONTAINER p {
+    font-size: 0.8em;
+}

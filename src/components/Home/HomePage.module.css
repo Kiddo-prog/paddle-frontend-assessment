@@ -1,0 +1,70 @@
+.Main_Container {
+    background: transparent url('/public/images/path1.png') 0% 0% no-repeat padding-box;
+
+}
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3em;
+    color: var(--color);
+    font-weight: var(---font-weight);
+}
+.Container .Heading {
+    font-size: 2.5em;
+    color: #ffffff;
+    font-family: var(---font-family);
+    text-transform: uppercase;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    font-weight: 800;
+    line-height: 1.5em;
+}
+.Container .HeadingText {
+    text-align: center;
+    font-family: var(---font-family);
+    width: 70%;
+    margin: auto;
+    font-size: 1em;
+}
+/* COUNTDOWN TIMER */
+.HOME_COUNTDOWN{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1em;
+    line-height: 1.5em;
+    text-align: center;
+    margin-top: 1em;
+}
+.WAITING_FORM{
+    margin: 2em auto;
+    text-align: center;
+}
+.WAITING_FORM input[type='text'] {
+    background: none;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #808080;
+    margin-right: 1.5em;
+    color: var(--color);
+}
+.WAITING_FORM input[type='text']::placeholder{
+    margin: 0 4px 8px 0;
+}
+.EMAIL_FIELD_CONTAINER {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5em -6em 5em -5em;
+    border-radius: 51px;
+}
+.EMAIL_FIELD_CONTAINER input {
+    font-family: var(---font-family);
+}
+.WAITING_FORM .EMAIL_FIELD_CONTAINER input, button {
+    padding: 0;
+}
