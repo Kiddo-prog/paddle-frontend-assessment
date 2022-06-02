@@ -1,0 +1,49 @@
+.GITHUB_CONTAINER {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    column-gap: 2em;
+    margin: 2em 5em;
+    font-family: var(---font-family);
+    color: var(--color);
+}
+.GITHUB_CONTAINER div {
+    margin-bottom: 2em;
+}
+.GITHUB_CONTAINER .GITHUB_SUB_CONTAINER_ONE {
+    flex: 1;
+}
+.GITHUB_CONTAINER .GITHUB_SUB_CONTAINER_TWO{
+    flex: 4;
+}
+.GITHUB_CONTAINER .GITHUB_SUB_CONTAINER_TWO .GITHUB_TRACK_INFO{
+    display: inline-flex;
+    column-gap: 2em;
+}
+.GITHUB_CONTAINER .GITHUB_SUB_CONTAINER_TWO .GITHUB_TRACK_INFO p {
+    background: #ffffff;
+    color:  #0C0123;
+    padding: 0.2em 0.4em;
+}
+/* loading spinner */
+.loadingContainer {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 5em auto;
+}
+.loadingSpinner {
+    height: 64px;
+    border: 8px solid;
+    border-color: #00cc66 transparent;
+    border-radius: 50%;
+    animation: spin 1.2s linear infinite;
+}
+@keyframes spin{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
