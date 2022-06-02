@@ -3,15 +3,9 @@ import { Link } from 'react-router-dom'
 import item from '../../data.json'
 import styles from './AboutUs.module.css'
 
-import Header from '../Header/Header'
-import Footer from '../Footer/Footer'
-
 const Aboutus = () => {
   return (
-    <main style={{
-        background: 'linear-gradient(180deg, #210045, #0C0123)'
-    }}>
-        <Header />
+    <main>
         <div className={styles.ABOUT_MAIN_HEADING_CONTAINER}>
             <div className={styles.ABOUT_HEADER_ONE}>
                 <h5 className={styles.ABOUT_US_HEADING}>ABOUT US</h5>
@@ -52,8 +46,6 @@ const Aboutus = () => {
             <p className={styles.QUESTION_TEXT}>See how Metricks can help your business grow with the best affiliate marketing tracking software</p>
             <Link to={'/contact'} className={styles.QUESTION_CONTACT_LINK}>contact us</Link>
         </section>
-
-        <Footer />
     </main>
   )
 }
