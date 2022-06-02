@@ -8,6 +8,7 @@ const Header = () => {
         <Link to={"/"} className={styles.Link}>METRICKS</Link>
         <div className={styles.NavItems}>
             <DesktopNavItem />
+            <Link to='/contact' className={styles.Contact_Link}>contact us</Link>
         </div>
     </nav>
   )
@@ -37,10 +38,6 @@ const NAV_ITEMS = [
     {
         label: 'blog',
         href: '/blog'
-    },
-    {
-        label: 'contact',
-        href: '/contact'
     }
 ]
 

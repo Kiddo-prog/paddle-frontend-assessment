@@ -1,6 +1,5 @@
 .Main_Container {
     background: transparent url('/public/images/path1.png') 0% 0% no-repeat padding-box;
-
 }
 .Container {
     display: flex;
@@ -10,6 +9,7 @@
     margin: 3em;
     color: var(--color);
     font-weight: var(---font-weight);
+    position: relative;
 }
 .Container .Heading {
     font-size: 2.5em;

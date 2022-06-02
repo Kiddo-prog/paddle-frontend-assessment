@@ -13,7 +13,8 @@
   box-sizing: border-box;
 }
 
-.APP_CONTAINER{
+body {
+  background: linear-gradient(178deg, #210045, #0C0123);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;

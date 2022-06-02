@@ -11,7 +11,7 @@ const ContactUs = () => {
   return (
     <section className={styles.CONTACT_FORM_CONTAINER}>
       <div className={styles.CONTACT_FORM_SUB_CONTAINER_ONE} style={{
-        flex: '4'
+        // flex: '4'
       }}></div>
         <form className={styles.CONTACT_FORM_SUB_CONTAINER_TWO} style={{transition: contact ? '1s ease-in' : '' }} onAnimationEnd={contact ? '1s ease-in' : '' }>
           <div style={{

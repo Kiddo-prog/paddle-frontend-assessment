@@ -30,6 +30,16 @@ const App = () => {
         <Route path="/privacy" element={<PrivacyPolicy />}/>
       </Routes>
       <Footer />
+      <div style={{
+        background: 'linear-gradient(178deg, #210045, #0C0123)',
+        height: '100vh',
+        position: 'fixed',
+        top: 0,
+        width: '100%',
+        zIndex: -1
+      }}>
+
+      </div>
     </div>
   );
 }

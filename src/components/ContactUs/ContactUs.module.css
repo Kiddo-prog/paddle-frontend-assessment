@@ -4,9 +4,14 @@
     background: transparent linear-gradient(180deg, #213F72 0%, #19073B 100%) 0% 0% no-repeat padding-box;
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    transition: 0.5s ease-in;
+    /* min-height: 150vh; */
 }
 .CONTACT_FORM_SUB_CONTAINER_TWO {
-    flex: 3;
     display: flex;
     flex-direction: column;
     background: transparent linear-gradient(180deg, #210045 0%, #0C0123 100%) 0% 0% no-repeat padding-box;

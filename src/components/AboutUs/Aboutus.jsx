@@ -7,6 +7,17 @@ const Aboutus = () => {
   return (
     <main>
         <div className={styles.ABOUT_MAIN_HEADING_CONTAINER}>
+        <div style={{
+                    background: 'transparent linear-gradient(177deg, #213F72 0%, #1D0040 100%) 0% 0% no-repeat padding-box',
+                    borderRadius: '50%',
+                    height: '25%',
+                    width: '10%',
+                    position: 'absolute',
+                    right: '10px',
+                    top: '25%'
+                }}>
+                    </div>
+                    
             <div className={styles.ABOUT_HEADER_ONE}>
                 <h5 className={styles.ABOUT_US_HEADING}>ABOUT US</h5>
                 <h1 className={styles.ABOUT_US_SUB_HEADING}>Built for SaaS and E-commerce</h1>

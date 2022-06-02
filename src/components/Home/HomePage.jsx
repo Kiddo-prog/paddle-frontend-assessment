@@ -1,14 +1,35 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './HomePage.module.css'
+import { useLocation } from 'react-router-dom'
 
-import Header from '../Header/Header'
-import Footer from '../Footer/Footer'
 
 const HomePage = () => {
+const location = useLocation()
+const contact = location.pathname.split('/')[1]
+  
   return (
-    <section className={styles.Main_Container}>
-        <Header />
-        <div className={styles.Container}>
+    <section className={styles.Container} style={{ filter: contact ? 'blur(5px)' : '', transform: contact ? 'scale(0.9)' : '', transition: contact ? '1s ease-in': ''}}>
+        <div style={{
+                    background: 'transparent linear-gradient(177deg, #213F72 0%, #1D0040 100%) 0% 0% no-repeat padding-box',
+                    borderRadius: '50%',
+                    height: '20%',
+                    width: '8%',
+                    position: 'absolute',
+                    right: '15%',
+                    top: '38%'
+                }}>
+                    </div>
+                    <div style={{
+                        background: 'transparent linear-gradient(177deg, #7F1E7B 0%, #19073B 100%) 0% 0% no-repeat padding-box',
+                        borderRadius: '50%',
+                        height: '18%',
+                        width: '8%',
+                        position: 'absolute',
+                        left: '10%',
+                        top: '18%',
+                        opacity: 1
+                    }}>
+                </div>
         <div>
             <h1 className={styles.Heading}>something awesome is coming soon</h1>
             <p className={styles.HeadingText}>Your all-in-one affiliate marketing tracking software <b>track, automate</b> and <b>optimize</b> your campaigns</p>
@@ -49,9 +70,6 @@ const HomePage = () => {
                 </button>
             </div>
         </form>
-
-    </div>
-        <Footer />
     </section>
   )
 }
