@@ -17,18 +17,19 @@ import "./App.css"
 const App = () => {
   return (
     <div className="APP_CONTAINER">
-    {/* <Header /> */}
+    <Header />
       <Routes>
-        <Route path="" exact element={<ComingSoon />}/>
+        <Route path="" exact element={<ComingSoon />}>
+          <Route path='contact' element={<Contact />}/>
+        </Route>
         <Route path='about' element={<About />}/>
-        <Route path='contact' element={<Contact />}/>
         <Route path='blog' element={<Blog />}/>
         <Route path='github' element={<Github />} />
         
         <Route path="/terms" element={<Terms />}/>
         <Route path="/privacy" element={<PrivacyPolicy />}/>
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
